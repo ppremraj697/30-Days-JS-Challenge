@@ -33,3 +33,9 @@ let person = {
 console.log(person); #{ name: 'Alice', age: 25, greet: [Function: greet] }
 person.greet(); #Hello, my name is Alice
 ```
+
+3. DOM Manipulation
+   a. New ways to create and append child onto DOM (Activity 2)
+   b. Removing Elements from DOM (Activity 3)
+   c. Change attribute of HTML elements (Activity 4)
+   d. Add and remove a CSS class to/from an HTML element (Activity 4)
