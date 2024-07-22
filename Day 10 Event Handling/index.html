@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      #image {
+        height: 200px;
+      }
+      #task2 {
+        padding: 5px;
+        border: 1px solid black;
+      }
+      .hidden {
+        /* display: none; */
+        visibility: hidden;
+      }
+      #task3 {
+        height: 100px;
+        width: 100px;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="task1">
+      <p id="para1">
+        This text content will be changed after clicking on the button using
+        event handler
+      </p>
+      <button id="btn1">Change Text</button>
+    </div>
+
+    <div id="task2">
+      <img
+        src="https://images.unsplash.com/photo-1721635513002-287a3a3b2fa1?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D"
+        alt="image"
+        id="image"
+      />
+      <p>Double click on this div to toggle the image visibility</p>
+    </div>
+
+    <div id="task3">mouseover & mouseout event attached</div>
+
+    <div id="task5">
+      <input type="text" id="input" />
+      <p id="output"></p>
+    </div>
+
+    <div id="task7">
+      <form action="" id="form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" /><br /><br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" /><br /><br />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div id="task8">
+      <label for="mySelect">Choose an option:</label>
+      <select id="mySelect">
+        <option value="">--Select an option--</option>
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+      </select>
+      <p id="selectedValue">Selected value will appear here</p>
+    </div>
+
+    <div id="task9">
+      <ul id="myList">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+    </div>
+
+    <div id="task10">
+      <button id="addItemButton">Add Item</button>
+      <ul id="dynamicList">
+        <li>Initial Item</li>
+      </ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
